@@ -1,0 +1,16 @@
+.trends {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 6px;
+  }
+  
+  .trend {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .trend:last-child {
+    border-bottom: none;
+  }
+  

@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(10, 7, 0);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.app {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.feed {
+  flex: 0.5;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.trends {
+  flex: 0.3;
+  padding: 20px;
+}

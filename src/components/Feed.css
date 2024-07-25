@@ -1,0 +1,93 @@
+/* Feed.css */
+
+.feedHeader {
+  padding-bottom: 10px;
+  margin-bottom: 20px; 
+}
+
+.tweetInput {
+  padding: 5px 0;
+}
+
+.tweetContent {
+  margin-bottom: 10px;
+}
+
+.tweetActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.tweetInput {
+  margin-bottom: 20px; 
+}
+
+.alisami{
+  display: inline;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tweetInput textarea {
+  width: 85%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  resize: vertical;
+  background-color: transparent;
+  color: aliceblue;
+  outline: none;
+  display: inline-block;
+}
+
+.tweetInputActions{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  
+  border-bottom: 1px solid #ddd;
+}
+
+.tweetInputActions button {
+  background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    transition: 0.3s all;
+}
+
+.tweetInputActions button:hover {
+  background-color: #1da0f2ea;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.tweetImage {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.icoons{
+  font-size: 85px;
+}

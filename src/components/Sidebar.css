@@ -1,0 +1,28 @@
+.sidebar{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.sidebarOption {
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .tweetButton {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+  }
+  
